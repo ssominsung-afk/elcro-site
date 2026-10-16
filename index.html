@@ -14,7 +14,7 @@
     data['_subject'] = 'Website RFQ: ' + (data.company||'') + ' \u2014 ' + (data.product||'');
     btn.disabled = true;
     if(btn.firstChild) btn.firstChild.textContent = 'Sending\u2026 ';
-    fetch('https://formsubmit.co/ajax/simon@getelcro.com', {
+    fetch('https://formsubmit.co/ajax/0f2c8254a7e2e703db266498dee0f8e7', {
       method: 'POST',
       headers: {'Content-Type':'application/json','Accept':'application/json'},
       body: JSON.stringify(data)
